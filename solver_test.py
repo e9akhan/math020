@@ -2,8 +2,8 @@ import solver
 
 
 def is_solved():
-    assert not solver.solver()
+    assert solver.solver(10)
 
 
 def test_solver():
-    assert solver.solver() == 42
+    assert solver.solver(10) == 3628800
